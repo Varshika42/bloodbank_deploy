@@ -19,6 +19,10 @@ mongoose.connect('mongodb+srv://varshikapalanivel:Varsh24@mycluster.tz14g.mongod
     .then(() => console.log('Database connected...'))
     .catch((err) => console.log(err));
 
+app.get('/', (req, res) => {
+    res.send('Blood Bank Management System Backend is running...');
+});
+
 
 
 
