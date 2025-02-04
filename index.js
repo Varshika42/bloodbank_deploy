@@ -15,7 +15,7 @@ app.use(hospitalRouter);
 
 app.listen(5000, () => console.log('Server running on port 5000'));
 
-mongoose.connect('mongodb://localhost:27017/Bloodbank')
+mongoose.connect('mongodb+srv://varshikapalanivel:Varsh24@mycluster.tz14g.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster')
     .then(() => console.log('Database connected...'))
     .catch((err) => console.log(err));
 
