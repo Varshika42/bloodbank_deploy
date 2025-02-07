@@ -19,9 +19,9 @@ app.use(recipientRouter);
 app.use(hospitalRouter);
 
 
-///app.get('/', (req, res) => {
-///    res.send('Blood Bank Management System Backend is running...');
-///});
+app.get('/', (req, res) => {
+    res.send('Blood Bank Management System Backend is running...');
+});
 
 
 
